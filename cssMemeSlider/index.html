@@ -1,35 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./style.css">
 	<title>Memesis</title>
 </head>
+
 <body class="body">
 	<div class="slider">
-		<input type="radio" name="image" id="one" checked>		
-		<input type="radio" name="image" id="two">		
-		<input type="radio" name="image" id="three">		
-		<input type="radio" name="image" id="four">		
-		<div class="slider__images">
-			<div class="slider__meme meme_img_one"></div>
-			<div class="slider__meme meme_img_two"></div>
-			<div class="slider__meme meme_img_three"></div>
-			<div class="slider__meme meme_img_four"></div>
+		<input type="radio" name="image" id="one" checked>
+		<input type="radio" name="image" id="two">
+		<input type="radio" name="image" id="three">
+		<input type="radio" name="image" id="four">
+		<div class="slider__imgs__wrapper">
+			<div class="slider__images">
+				<div class="slider__meme meme_img_one">
+					<img src="./2.jpg" alt="">
+				</div>
+				<div class="slider__meme meme_img_two">
+					<img src="./1.jpg" alt="">
+				</div>
+				<div class="slider__meme meme_img_three">
+					<img src="./4.jpg" alt="">
+				</div>
+				<div class="slider__meme meme_img_four">
+					<img src="./3.jpg" alt="">
+				</div>
+			</div>
 		</div>
-		<p class="slider__texts">
-			<slider__text class="title_one"></slider__text>
-			<slider__text class="title_two"></slider__text>
-			<slider__text class="title_three"></slider__text>
-			<slider__text class="title_four"></slider__text>
-		</p>
-		<div class="slider__controls">
-			<label for="one"></label>
-			<label for="two"></label>
-			<label for="three"></label>
-			<label for="four"></label>
+		<div class="slider__bottom">
+			<div class="slider__texts_wrapper">
+				<div class="slider__texts">
+					<p class="slider__text title_one">Ты справишься!</p>
+					<p class="slider__text title_two">Сказки нам врали!</p>
+					<p class="slider__text title_three">Помни о главном!</p>
+					<p class="slider__text title_four">Цени тех, кто остается!</p>
+				</div>
+			</div>
+			<div class="slider__controls">
+				<label for="one" class="controls">
+					<div class="controls__border">
+						<div class="controls__entry"></div>
+					</div>
+				</label>
+				<label for="two" class="controls">
+					<div class="controls__border">
+						<div class="controls__entry"></div>
+					</div>
+				</label>
+				<label for="three" class="controls">
+					<div class="controls__border">
+						<div class="controls__entry"></div>
+					</div>
+				</label>
+				<label for="four" class="controls">
+					<div class="controls__border">
+						<div class="controls__entry"></div>
+					</div>
+				</label>
+			</div>
 		</div>
 	</div>
 </body>
+
 </html>
