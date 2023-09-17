@@ -53,7 +53,7 @@ img {
 /* start */
 
 .body {
-	background: #b9b9b9;
+	background: #d89f9f;
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
@@ -67,6 +67,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	gap: .7rem;
+	box-shadow: 0 0 15px #9c0303;
 }
 
 .slider > input {
@@ -113,6 +114,7 @@ img {
 
 .slider__text {
 	width: 30rem;
+	font-weight: 700;
 }
 
 .slider__bottom {
